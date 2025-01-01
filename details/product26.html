@@ -12,7 +12,7 @@
         <div class="logo-and-nav">
             <h1>貪婪天堂</h1>
             <nav>
-                <a href="Home.html">Home</a>
+                <a href="home.html">Home</a>
                 <a href=" header/About Us.html">About Us</a>
                 <a href=" header/FAQ.html">FAQ</a>
                 <a href=" header/Contact.html">Contact</a>
@@ -229,7 +229,7 @@ function renderProducts(products) {
         productDiv.classList.add("product-item");
         productDiv.innerHTML = `
             <a href="${product.link}">
-                <img src="${product.image}" alt="${product.name}">
+                <img src="details/${product.image}" alt="${product.name}">
                 <p>${product.name}</p>
                 <p>${product.price}</p>
             </a>
